@@ -1,20 +1,7 @@
-import { useState } from "react";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import { Route, Routes } from "react-router-dom";
-import Home from './Pages/Home'
-import Landing from "./Pages/Landing";
-
-function App () {
+export default function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" Component={Home}/>
-        <Route path="/landingpage" Component={Landing}/>
-      </Routes>
-    </>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   )
 }
-
-export default App
